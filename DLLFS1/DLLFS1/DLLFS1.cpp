@@ -96,3 +96,4 @@ bool getFsInfo(string diskNameFormated, NTFS_BootRecord * _check)
 	*_check = *reinterpret_cast<NTFS_BootRecord*>(bBootSector);
 	return true;
 }
+//test
