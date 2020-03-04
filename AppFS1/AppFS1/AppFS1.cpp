@@ -27,7 +27,7 @@ int main()
 	string diskNameFormated = "\\\\.\\" + diskName + ":"; // Формируем путь
 
 	string SysName = FindFSName(diskName);
-	if (!fsIsSupported(SysName)) // Определяем поддерживается ли ФС нашей программой (пока что только NTFS)
+	if (!fsIsSupported(SysName)) // Определяем поддерживается ли ФС нашей программой
 	{
 		cout << "Sorry, " << SysName << " is not supported yet!" << endl;
 		cin.get();
